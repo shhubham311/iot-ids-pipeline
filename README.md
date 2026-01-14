@@ -237,8 +237,7 @@ iot-intrusion-detection/
 │   ├── train.py          # Model training pipeline
 │   └── inference.py      # FastAPI service
 ├── notebooks/
-│   ├── 01_eda.ipynb      # Exploratory data analysis
-│   └── 02_modeling.ipynb # Model experimentation
+│   ├── EDA.ipynb      # Exploratory data analysis
 ├── models/
 │   ├── xgboost_model.pkl # Trained model
 │   ├── feature_encoders.pkl
@@ -425,16 +424,11 @@ The GitHub Actions workflow automatically executes the following steps on every 
 - Develop A/B testing framework for comparing model versions
 - Integrate with enterprise SIEM systems (Splunk, Elastic Stack)
 
-## License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ## Acknowledgments
 
-- **Dataset**: RT-IoT2022 from IEEE Dataport
+- **Dataset**: RT-IoT2022 from UCI Datasets
 - **Framework Inspiration**: NIST Cybersecurity Framework
 - **Open Source Libraries**: FastAPI, XGBoost, MLflow, and scikit-learn communities
 
 ---
-
-**Contact**: [LinkedIn](https://linkedin.com/in/yourprofile) | [Portfolio](https://yourwebsite.com)
